@@ -1,0 +1,13 @@
+Model Test Accuracies:
+Logistic Regression: 0.8333333333333334
+SVM: 0.8333333333333334
+Decision Tree: 0.7777777777777778
+KNN: 0.8333333333333334
+
+The best performing method on the test data is: Logistic Regression
+
+Cross-validation accuracies (GridSearchCV best):
+Logistic Regression: 0.8464285714285713  {'C': 0.01, 'penalty': 'l2', 'solver': 'lbfgs'}
+SVM:                 0.8482142857142856  {'C': 1.0, 'gamma': 0.03162277660168379, 'kernel': 'sigmoid'}
+Decision Tree:       0.8767857142857143  {'criterion': 'entropy', 'max_depth': 14, ...}
+KNN:                 0.8482142857142858  {'algorithm': 'auto', 'n_neighbors': 10, 'p': 1}

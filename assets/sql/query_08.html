@@ -1,0 +1,59 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+ body { font-family: Segoe UI, Arial, sans-serif; margin: 18px; background: #fff; color: #111; }
+ h3 { font-size: 15px; margin: 0 0 10px; color: #0f62fe; }
+ pre.query { background:#f4f4f4; padding:8px 10px; font-size:12px; border-left:3px solid #0f62fe; white-space:pre-wrap; }
+ table { border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+ th, td { border: 1px solid #d2d2d2; padding: 4px 10px; text-align: left; }
+ th { background: #e0e0e0; }
+</style></head><body>
+<h3>SQL Result 8</h3>
+<pre class="query">SELECT DISTINCT Booster_Version 
+FROM SPACEXTABLE 
+WHERE PAYLOAD_MASS__KG_ = (SELECT MAX(PAYLOAD_MASS__KG_) FROM SPACEXTABLE);</pre>
+<table>
+    <thead>
+        <tr>
+            <th>Booster_Version</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>F9 B5 B1048.4</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1049.4</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1051.3</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1056.4</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1048.5</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1051.4</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1049.5</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1060.2 </td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1058.3 </td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1051.6</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1060.3</td>
+        </tr>
+        <tr>
+            <td>F9 B5 B1049.7 </td>
+        </tr>
+    </tbody>
+</table>
+</body></html>

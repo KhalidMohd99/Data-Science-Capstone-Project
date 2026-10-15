@@ -1,0 +1,92 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>
+ body { font-family: Segoe UI, Arial, sans-serif; margin: 18px; background: #fff; color: #111; }
+ h3 { font-size: 15px; margin: 0 0 10px; color: #0f62fe; }
+ pre.query { background:#f4f4f4; padding:8px 10px; font-size:12px; border-left:3px solid #0f62fe; white-space:pre-wrap; }
+ table { border-collapse: collapse; font-size: 13px; margin-top: 10px; }
+ th, td { border: 1px solid #d2d2d2; padding: 4px 10px; text-align: left; }
+ th { background: #e0e0e0; }
+</style></head><body>
+<h3>SQL Result 2</h3>
+<pre class="query">SELECT * FROM SPACEXTABLE 
+WHERE Launch_Site LIKE &#x27;CCA%&#x27; 
+LIMIT 5;</pre>
+<table>
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Time (UTC)</th>
+            <th>Booster_Version</th>
+            <th>Launch_Site</th>
+            <th>Payload</th>
+            <th>PAYLOAD_MASS__KG_</th>
+            <th>Orbit</th>
+            <th>Customer</th>
+            <th>Mission_Outcome</th>
+            <th>Landing_Outcome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2010-06-04</td>
+            <td>18:45:00</td>
+            <td>F9 v1.0  B0003</td>
+            <td>CCAFS LC-40</td>
+            <td>Dragon Spacecraft Qualification Unit</td>
+            <td>0</td>
+            <td>LEO</td>
+            <td>SpaceX</td>
+            <td>Success</td>
+            <td>Failure (parachute)</td>
+        </tr>
+        <tr>
+            <td>2010-12-08</td>
+            <td>15:43:00</td>
+            <td>F9 v1.0  B0004</td>
+            <td>CCAFS LC-40</td>
+            <td>Dragon demo flight C1, two CubeSats, barrel of Brouere cheese</td>
+            <td>0</td>
+            <td>LEO (ISS)</td>
+            <td>NASA (COTS) NRO</td>
+            <td>Success</td>
+            <td>Failure (parachute)</td>
+        </tr>
+        <tr>
+            <td>2012-05-22</td>
+            <td>7:44:00</td>
+            <td>F9 v1.0  B0005</td>
+            <td>CCAFS LC-40</td>
+            <td>Dragon demo flight C2</td>
+            <td>525</td>
+            <td>LEO (ISS)</td>
+            <td>NASA (COTS)</td>
+            <td>Success</td>
+            <td>No attempt</td>
+        </tr>
+        <tr>
+            <td>2012-10-08</td>
+            <td>0:35:00</td>
+            <td>F9 v1.0  B0006</td>
+            <td>CCAFS LC-40</td>
+            <td>SpaceX CRS-1</td>
+            <td>500</td>
+            <td>LEO (ISS)</td>
+            <td>NASA (CRS)</td>
+            <td>Success</td>
+            <td>No attempt</td>
+        </tr>
+        <tr>
+            <td>2013-03-01</td>
+            <td>15:10:00</td>
+            <td>F9 v1.0  B0007</td>
+            <td>CCAFS LC-40</td>
+            <td>SpaceX CRS-2</td>
+            <td>677</td>
+            <td>LEO (ISS)</td>
+            <td>NASA (CRS)</td>
+            <td>Success</td>
+            <td>No attempt</td>
+        </tr>
+    </tbody>
+</table>
+</body></html>
