@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS/Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Intermediate/generated helper scripts & temp dumps
+tools/
+pptx_structure.txt
+sql_cells.txt
+deck_numbers.txt
+
+# HTML intermediates (PNG screenshots are sufficient)
+assets/maps/*.html
+assets/sql/*.html
+
+# Logs
+*.log
+
+# Keep required deliverables: notebooks, Python app, PPT/PDF, README, assets (PNGs), data CSVs
+# (CSV files are small and useful for reproducibility; left included)
